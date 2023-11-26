@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+   
+    --toupe: #aba092;
+    --bgone: #212121;
+    --goldone:#c4a18b;
+    --bblack:#171717;
+  }
+  
+  @layer base {
+
+    .header img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;  
+    }
+ 
+    .bxdiv:empty {
+      display: none;
+    }
+
+
+  }
+  
+
+@layer components {
+
+ 
+
+
+
+    body {@apply bg-slate-100 }
+
+    .head-one {@apply text-3xl font-bold tracking-tighter py-10 uppercase text-center sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-[--toupe] to-[--goldone] }
+
+     
+    .content p {@apply text-slate-900 text-xl }
+    .content h2 {@apply text-zinc-600 text-2xl font-bold py-8 }
+    .sec-footer {@apply  pt-10 pb-8 }
+    .sec-footer a { @apply hover:text-amber-400 hover:underline transition-transform duration-300   }
+    
+    .pg-footer {@apply px-5 z-10 py-2    flex relative items-center justify-center border-t border-slate-400/50; }
+    .ftr-links {@apply flex text-white  divide-x divide-slate-300 text-[12px] sm:text-sm text-opacity-80 items-center justify-center; }
+    .ftr-links a {@apply hover:underline hover:text-slate-200 px-4 hover:translate-x-0; }
+    .pg-footer .copy {@apply  text-xs text-slate-200 text-opacity-80 text-center;}
+
+
+    .chat-msg {  @apply fixed sm:bottom-4 sm:left-4  bottom-4 left-4 z-50 ; }
+    .chat-msg-tip { @apply hidden w-24 h-10 bg-white shadow rounded absolute leading-6 top-4 right-[80px] p-2 pl-4 text-base text-gray-500;}
+    .chat-msg-tip div { @apply w-4 h-4 absolute bg-white rounded rotate-45 right-[-4px] top-3;}
+    .chat-msg a {  @apply w-16 h-16 sm:w-16 sm:h-16 text-[#aca299] bg-[#25D366] hover:bg-[#1bb352] rounded-full flex justify-center items-center;}
+    .chat-msg a span {  @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-[#35dd73] opacity-75;}
+
+    
+.mainHeader h1 {@apply text-3xl   sm:font-bold tracking-tight  text-center relative sm:text-6xl  text-white  font-bold 
+  text-transparent bg-clip-text uppercase bg-gradient-to-t from-[#01b8ee] via-[#2f51a1] to-[#2f51a1];}
+.mainHeader h2 {@apply text-slate-900  text-base text-center sm:text-xl sm:mt-2 mt-1;}
+.mainHeader h3 {@apply text-2xl font-bold sm:font-medium tracking-tight text-white text-center relative sm:text-3xl;}
+
+
+.innerHeader {@apply xl:h-44 h-40 w-full flex items-center justify-center  relative; }
+.innerHeader h1 {@apply lg:text-4xl px-4 text-center uppercase   leading-5 xl:text-3xl text-2xl  font-bold  text-slate-50     z-30  
+  pt-28;}
+.innerHeader span {@apply w-full lg:h-44 h-40 absolute opacity-60 bg-[--bblack] z-20 inset-0;}
+ 
+
+.top-social { @apply flex gap-x-2  ; }
+.top-social a { @apply border border-white  w-10 h-10 flex items-center justify-center transition-all duration-300 rounded-full;}
+
+
+.menu-social { @apply sm:flex gap-x-2     hidden ; }
+.menu-social a { @apply    w-10 h-10 flex items-center justify-center transition-all duration-300 rounded-full;}
+
+.txtbx {@apply block
+  w-full 
+  mt-1
+  border
+  border-gray-100 bg-transparent
+  rounded-none
+  shadow-sm
+    text-slate-50
+  focus:ring
+  focus:ring-amber-100 ring-1 outline-none
+  focus:ring-opacity-50 px-2 py-2;}
+ 
+
+}
