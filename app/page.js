@@ -15,21 +15,21 @@ export default function Home() {
             
                  <div>  
 
-                 <Image
+                 {/* <Image
               src="/images/wisemart-II.png"
               alt="WiseMart II"
               className="w-64 cursor-pointer mx-auto"
               width={240}
               height={128}
-            />
+            /> */}
                  
                      
                      <h1 className="text-3xl mt-8 font-bold tracking-tighter text-center sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
-                     Welcome to Wisemart II
+                     Welcome to Cheema Foods LTD
               </h1>
                  
 
-                     <Link href="./menu" className='border-red-500 border my-12 block rounded-lg bg-gradient-to-b from-red-600  to-red-800 hover:from-red-800 hover:to-red-600  shadow px-10 py-4 text-2xl font-semibold text-center text-slate-50'>MENU</Link> 
+                     <Link href="#" className='border-red-500 border my-12 block rounded-lg bg-gradient-to-b from-red-600  to-red-800 hover:from-red-800 hover:to-red-600  shadow px-10 py-4 text-2xl font-semibold text-center text-slate-50'>SEE MENU</Link> 
 
 
                      <div className='items-center text-center'>
@@ -53,9 +53,9 @@ export default function Home() {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>{" "}
-                    Sharptown, MD, United States, Maryland
+                    45 Blackpool Road, Preston, PR2 6BU
                     <a
-                      href="https://maps.app.goo.gl/HYnux41TFisWQoah9"
+                      href="#"
                       title="Direction"
                       className="tooltip"
                       target="_blank"
@@ -79,7 +79,7 @@ export default function Home() {
             
 
             <a
-              href="https://web.facebook.com/wisemart2/"
+              href="#"
               title="WiseMart II"
               className="facebook tooltip group hover:fill-white hover:-translate-y-2 hover:bg-[#4267B2] hover:border-[#4267B2]"
             >
@@ -109,7 +109,7 @@ export default function Home() {
 
 
             <a
-              href="mailto:info@wisemart2.com"
+              href="mailto:info@cheemafoods.co.uk"
               title="Email"
               className="emailit tooltip group hover:-translate-y-2 hover:fill-white hover:bg-slate-400 hover:border-slate-400"
             >
