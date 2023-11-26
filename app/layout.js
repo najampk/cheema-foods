@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'WiseMart II',
+  title: 'Cheema Foods LTD',
   description: '',
 }
 
