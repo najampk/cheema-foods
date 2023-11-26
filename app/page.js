@@ -17,7 +17,7 @@ export default function Home() {
 
                  {/* <Image
               src="/images/wisemart-II.png"
-              alt="WiseMart II"
+              alt="Cheema Foods LTD"
               className="w-64 cursor-pointer mx-auto"
               width={240}
               height={128}
@@ -80,7 +80,7 @@ export default function Home() {
 
             <a
               href="#"
-              title="WiseMart II"
+              title="Cheema Foods LTD"
               className="facebook tooltip group hover:fill-white hover:-translate-y-2 hover:bg-[#4267B2] hover:border-[#4267B2]"
             >
               <svg
@@ -94,7 +94,7 @@ export default function Home() {
 
             <a
               href="#"
-              title="WiseMart II"
+              title="Cheema Foods LTD"
               className="instagram tooltip group hover:bg-[#405DE6] hover:border-[#405DE6] hover:-translate-y-2"
             >
               <svg
